@@ -1,0 +1,31 @@
+form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 25%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px;
+}
+input{
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+textarea{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: green;
+
+}
+label{
+    color: rgb(211, 45, 134);
+}

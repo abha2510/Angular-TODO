@@ -1,0 +1,28 @@
+.item{
+   width:25%;
+   text-align: center;
+   margin-top: 20px;
+   padding: 10px; 
+   color:white;
+   font-size: 20px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   background: rgb(73,115,231);
+   background: linear-gradient(90deg, rgba(73,115,231,1) 23%, rgba(112,206,213,1) 61%);
+}
+button+button{
+    margin-left: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.completed {
+    text-decoration: line-through;
+  }
+button:hover{
+    background-color: rgb(239, 15, 131);
+}

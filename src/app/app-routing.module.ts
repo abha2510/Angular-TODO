@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 const routes: Routes = [
   { path: 'todos', component: TodoListComponent },
   { path: 'create', component: CreateTodoComponent },
-  { path: '', redirectTo: '/todos', pathMatch: 'full' },
+  { path: '', redirectTo: '/create', pathMatch: 'full' },
 ];
 
 @NgModule({
